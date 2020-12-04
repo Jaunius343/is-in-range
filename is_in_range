@@ -1,0 +1,9 @@
+int isInRange(int number, int low, int high)
+{
+    if(low < high){
+        if(number >= low && number <= high)
+            return 1;
+    }
+    return 0;
+
+}
