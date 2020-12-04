@@ -1,4 +1,4 @@
-int isInRange(int number, int low, int high)
+int is_in_range(int number, int low, int high)
 {
     if(low < high){
         if(number >= low && number <= high)
